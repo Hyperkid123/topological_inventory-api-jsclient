@@ -72,8 +72,20 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property extra (base name: "extra")', function() {
+      // uncomment below and update the code to test the property extra
+      //var instane = new TopologicalInventory.ServicePlan();
+      //expect(instance).to.be();
+    });
+
     it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
       // uncomment below and update the code to test the property sourceCreatedAt
+      //var instane = new TopologicalInventory.ServicePlan();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
+      // uncomment below and update the code to test the property sourceDeletedAt
       //var instane = new TopologicalInventory.ServicePlan();
       //expect(instance).to.be();
     });

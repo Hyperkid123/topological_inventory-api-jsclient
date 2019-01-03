@@ -72,6 +72,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property livesOnType (base name: "lives_on_type")', function() {
+      // uncomment below and update the code to test the property livesOnType
+      //var instane = new TopologicalInventory.ContainerNode();
+      //expect(instance).to.be();
+    });
+
     it('should have the property memory (base name: "memory")', function() {
       // uncomment below and update the code to test the property memory
       //var instane = new TopologicalInventory.ContainerNode();
@@ -80,6 +86,12 @@
 
     it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
       // uncomment below and update the code to test the property sourceCreatedAt
+      //var instane = new TopologicalInventory.ContainerNode();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
+      // uncomment below and update the code to test the property sourceDeletedAt
       //var instane = new TopologicalInventory.ContainerNode();
       //expect(instance).to.be();
     });

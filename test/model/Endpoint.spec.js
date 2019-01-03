@@ -84,6 +84,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property role (base name: "role")', function() {
+      // uncomment below and update the code to test the property role
+      //var instane = new TopologicalInventory.Endpoint();
+      //expect(instance).to.be();
+    });
+
     it('should have the property scheme (base name: "scheme")', function() {
       // uncomment below and update the code to test the property scheme
       //var instane = new TopologicalInventory.Endpoint();

@@ -59,6 +59,9 @@ export default class Source {
             if (data.hasOwnProperty('id')) {
                 obj['id'] = ApiClient.convertToType(data['id'], 'String');
             }
+            if (data.hasOwnProperty('source_type_id')) {
+                obj['source_type_id'] = ApiClient.convertToType(data['source_type_id'], 'String');
+            }
             if (data.hasOwnProperty('name')) {
                 obj['name'] = ApiClient.convertToType(data['name'], 'String');
             }
@@ -76,6 +79,10 @@ export default class Source {
     * @member {String} id
     */
     id = undefined;
+    /**
+    * @member {String} source_type_id
+    */
+    source_type_id = undefined;
     /**
     * @member {String} name
     */

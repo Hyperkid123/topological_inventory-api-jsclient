@@ -65,8 +65,14 @@ export default class ServicePlan {
             if (data.hasOwnProperty('description')) {
                 obj['description'] = ApiClient.convertToType(data['description'], 'String');
             }
+            if (data.hasOwnProperty('extra')) {
+                obj['extra'] = ApiClient.convertToType(data['extra'], 'String');
+            }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
+            }
+            if (data.hasOwnProperty('source_deleted_at')) {
+                obj['source_deleted_at'] = ApiClient.convertToType(data['source_deleted_at'], 'Date');
             }
             if (data.hasOwnProperty('source_id')) {
                 obj['source_id'] = ApiClient.convertToType(data['source_id'], 'String');
@@ -103,9 +109,18 @@ export default class ServicePlan {
     */
     description = undefined;
     /**
+    * Extra information about this object in JSON format
+    * @member {String} extra
+    */
+    extra = undefined;
+    /**
     * @member {Date} source_created_at
     */
     source_created_at = undefined;
+    /**
+    * @member {Date} source_deleted_at
+    */
+    source_deleted_at = undefined;
     /**
     * @member {String} source_id
     */

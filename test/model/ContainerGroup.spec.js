@@ -78,6 +78,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
+      // uncomment below and update the code to test the property sourceDeletedAt
+      //var instane = new TopologicalInventory.ContainerGroup();
+      //expect(instance).to.be();
+    });
+
     it('should have the property containerNodeId (base name: "container_node_id")', function() {
       // uncomment below and update the code to test the property containerNodeId
       //var instane = new TopologicalInventory.ContainerGroup();

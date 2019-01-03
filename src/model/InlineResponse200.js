@@ -19,14 +19,14 @@ import ApiClient from '../ApiClient';
 
 
 /**
-* The Id model module.
-* @module model/Id
+* The InlineResponse200 model module.
+* @module model/InlineResponse200
 * @version 0.0.1
 */
-export default class Id {
+export default class InlineResponse200 {
     /**
-    * Constructs a new <code>Id</code>.
-    * @alias module:model/Id
+    * Constructs a new <code>InlineResponse200</code>.
+    * @alias module:model/InlineResponse200
     * @class
     */
 
@@ -42,24 +42,31 @@ export default class Id {
     }
 
     /**
-    * Constructs a <code>Id</code> from a plain JavaScript object, optionally creating a new instance.
+    * Constructs a <code>InlineResponse200</code> from a plain JavaScript object, optionally creating a new instance.
     * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
     * @param {Object} data The plain JavaScript object bearing properties of interest.
-    * @param {module:model/Id} obj Optional instance to populate.
-    * @return {module:model/Id} The populated <code>Id</code> instance.
+    * @param {module:model/InlineResponse200} obj Optional instance to populate.
+    * @return {module:model/InlineResponse200} The populated <code>InlineResponse200</code> instance.
     */
     static constructFromObject(data, obj) {
         if (data) {
-            obj = obj || new Id();
+            obj = obj || new InlineResponse200();
 
             
             
             
 
+            if (data.hasOwnProperty('task_id')) {
+                obj['task_id'] = ApiClient.convertToType(data['task_id'], 'String');
+            }
         }
         return obj;
     }
 
+    /**
+    * @member {String} task_id
+    */
+    task_id = undefined;
 
 
 

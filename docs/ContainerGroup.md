@@ -7,6 +7,7 @@ Name | Type | Description | Notes
 **name** | **String** |  | [optional] 
 **ipaddress** | **String** |  | [optional] 
 **sourceCreatedAt** | **Date** |  | [optional] 
+**sourceDeletedAt** | **Date** |  | [optional] 
 **containerNodeId** | **String** |  | [optional] 
 **containerProjectId** | **String** |  | [optional] 
 **sourceId** | **String** |  | [optional] 

@@ -60,6 +60,12 @@
       //expect(instance).to.be();
     });
 
+    it('should have the property sourceTypeId (base name: "source_type_id")', function() {
+      // uncomment below and update the code to test the property sourceTypeId
+      //var instane = new TopologicalInventory.Source();
+      //expect(instance).to.be();
+    });
+
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
       //var instane = new TopologicalInventory.Source();

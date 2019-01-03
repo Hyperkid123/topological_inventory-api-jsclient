@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.Id();
+    instance = new TopologicalInventory.OrderParameters();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,11 +47,23 @@
       object[property] = value;
   }
 
-  describe('Id', function() {
-    it('should create an instance of Id', function() {
-      // uncomment below and update the code to test Id
-      //var instane = new TopologicalInventory.Id();
-      //expect(instance).to.be.a(TopologicalInventory.Id);
+  describe('OrderParameters', function() {
+    it('should create an instance of OrderParameters', function() {
+      // uncomment below and update the code to test OrderParameters
+      //var instane = new TopologicalInventory.OrderParameters();
+      //expect(instance).to.be.a(TopologicalInventory.OrderParameters);
+    });
+
+    it('should have the property serviceParameters (base name: "service_parameters")', function() {
+      // uncomment below and update the code to test the property serviceParameters
+      //var instane = new TopologicalInventory.OrderParameters();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property providerControlParameters (base name: "provider_control_parameters")', function() {
+      // uncomment below and update the code to test the property providerControlParameters
+      //var instane = new TopologicalInventory.OrderParameters();
+      //expect(instance).to.be();
     });
 
   });
