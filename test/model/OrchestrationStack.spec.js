@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.ServicePlan();
+    instance = new TopologicalInventory.OrchestrationStack();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,82 +47,58 @@
       object[property] = value;
   }
 
-  describe('ServicePlan', function() {
-    it('should create an instance of ServicePlan', function() {
-      // uncomment below and update the code to test ServicePlan
-      //var instane = new TopologicalInventory.ServicePlan();
-      //expect(instance).to.be.a(TopologicalInventory.ServicePlan);
+  describe('OrchestrationStack', function() {
+    it('should create an instance of OrchestrationStack', function() {
+      // uncomment below and update the code to test OrchestrationStack
+      //var instane = new TopologicalInventory.OrchestrationStack();
+      //expect(instance).to.be.a(TopologicalInventory.OrchestrationStack);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property description (base name: "description")', function() {
       // uncomment below and update the code to test the property description
-      //var instane = new TopologicalInventory.ServicePlan();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property extra (base name: "extra")', function() {
-      // uncomment below and update the code to test the property extra
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
       // uncomment below and update the code to test the property sourceCreatedAt
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
       // uncomment below and update the code to test the property sourceDeletedAt
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceId (base name: "source_id")', function() {
       // uncomment below and update the code to test the property sourceId
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property sourceRef (base name: "source_ref")', function() {
       // uncomment below and update the code to test the property sourceRef
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 
     it('should have the property tenantId (base name: "tenant_id")', function() {
       // uncomment below and update the code to test the property tenantId
-      //var instane = new TopologicalInventory.ServicePlan();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property serviceOfferingId (base name: "service_offering_id")', function() {
-      // uncomment below and update the code to test the property serviceOfferingId
-      //var instane = new TopologicalInventory.ServicePlan();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property createJsonSchema (base name: "create_json_schema")', function() {
-      // uncomment below and update the code to test the property createJsonSchema
-      //var instane = new TopologicalInventory.ServicePlan();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property updateJsonSchema (base name: "update_json_schema")', function() {
-      // uncomment below and update the code to test the property updateJsonSchema
-      //var instane = new TopologicalInventory.ServicePlan();
+      //var instane = new TopologicalInventory.OrchestrationStack();
       //expect(instance).to.be();
     });
 

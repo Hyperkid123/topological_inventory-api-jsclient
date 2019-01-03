@@ -19,14 +19,14 @@ import ApiClient from '../ApiClient';
 
 
 /**
-* The ServicePlan model module.
-* @module model/ServicePlan
+* The Vm model module.
+* @module model/Vm
 * @version 0.0.1
 */
-export default class ServicePlan {
+export default class Vm {
     /**
-    * Constructs a new <code>ServicePlan</code>.
-    * @alias module:model/ServicePlan
+    * Constructs a new <code>Vm</code>.
+    * @alias module:model/Vm
     * @class
     */
 
@@ -42,15 +42,15 @@ export default class ServicePlan {
     }
 
     /**
-    * Constructs a <code>ServicePlan</code> from a plain JavaScript object, optionally creating a new instance.
+    * Constructs a <code>Vm</code> from a plain JavaScript object, optionally creating a new instance.
     * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
     * @param {Object} data The plain JavaScript object bearing properties of interest.
-    * @param {module:model/ServicePlan} obj Optional instance to populate.
-    * @return {module:model/ServicePlan} The populated <code>ServicePlan</code> instance.
+    * @param {module:model/Vm} obj Optional instance to populate.
+    * @return {module:model/Vm} The populated <code>Vm</code> instance.
     */
     static constructFromObject(data, obj) {
         if (data) {
-            obj = obj || new ServicePlan();
+            obj = obj || new Vm();
 
             
             
@@ -64,9 +64,6 @@ export default class ServicePlan {
             }
             if (data.hasOwnProperty('description')) {
                 obj['description'] = ApiClient.convertToType(data['description'], 'String');
-            }
-            if (data.hasOwnProperty('extra')) {
-                obj['extra'] = ApiClient.convertToType(data['extra'], 'String');
             }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
@@ -83,14 +80,26 @@ export default class ServicePlan {
             if (data.hasOwnProperty('tenant_id')) {
                 obj['tenant_id'] = ApiClient.convertToType(data['tenant_id'], 'String');
             }
-            if (data.hasOwnProperty('service_offering_id')) {
-                obj['service_offering_id'] = ApiClient.convertToType(data['service_offering_id'], 'String');
+            if (data.hasOwnProperty('uid_ems')) {
+                obj['uid_ems'] = ApiClient.convertToType(data['uid_ems'], 'String');
             }
-            if (data.hasOwnProperty('create_json_schema')) {
-                obj['create_json_schema'] = ApiClient.convertToType(data['create_json_schema'], Object);
+            if (data.hasOwnProperty('hostname')) {
+                obj['hostname'] = ApiClient.convertToType(data['hostname'], 'String');
             }
-            if (data.hasOwnProperty('update_json_schema')) {
-                obj['update_json_schema'] = ApiClient.convertToType(data['update_json_schema'], Object);
+            if (data.hasOwnProperty('power_state')) {
+                obj['power_state'] = ApiClient.convertToType(data['power_state'], 'String');
+            }
+            if (data.hasOwnProperty('cpus')) {
+                obj['cpus'] = ApiClient.convertToType(data['cpus'], 'Number');
+            }
+            if (data.hasOwnProperty('memory')) {
+                obj['memory'] = ApiClient.convertToType(data['memory'], 'Number');
+            }
+            if (data.hasOwnProperty('orchestration_stack_id')) {
+                obj['orchestration_stack_id'] = ApiClient.convertToType(data['orchestration_stack_id'], 'String');
+            }
+            if (data.hasOwnProperty('flavor_id')) {
+                obj['flavor_id'] = ApiClient.convertToType(data['flavor_id'], 'String');
             }
         }
         return obj;
@@ -105,14 +114,10 @@ export default class ServicePlan {
     */
     name = undefined;
     /**
+    * Description of the Vm
     * @member {String} description
     */
     description = undefined;
-    /**
-    * Extra information about this object in JSON format
-    * @member {String} extra
-    */
-    extra = undefined;
     /**
     * @member {Date} source_created_at
     */
@@ -134,17 +139,36 @@ export default class ServicePlan {
     */
     tenant_id = undefined;
     /**
-    * @member {String} service_offering_id
+    * Cross-Source Unique Reference
+    * @member {String} uid_ems
     */
-    service_offering_id = undefined;
+    uid_ems = undefined;
     /**
-    * @member {Object} create_json_schema
+    * @member {String} hostname
     */
-    create_json_schema = undefined;
+    hostname = undefined;
     /**
-    * @member {Object} update_json_schema
+    * @member {String} power_state
     */
-    update_json_schema = undefined;
+    power_state = undefined;
+    /**
+    * Total number of CPUs
+    * @member {Number} cpus
+    */
+    cpus = undefined;
+    /**
+    * Total RAM in bytes
+    * @member {Number} memory
+    */
+    memory = undefined;
+    /**
+    * @member {String} orchestration_stack_id
+    */
+    orchestration_stack_id = undefined;
+    /**
+    * @member {String} flavor_id
+    */
+    flavor_id = undefined;
 
 
 

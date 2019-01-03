@@ -19,14 +19,14 @@ import ApiClient from '../ApiClient';
 
 
 /**
-* The ServicePlan model module.
-* @module model/ServicePlan
+* The OrchestrationStack model module.
+* @module model/OrchestrationStack
 * @version 0.0.1
 */
-export default class ServicePlan {
+export default class OrchestrationStack {
     /**
-    * Constructs a new <code>ServicePlan</code>.
-    * @alias module:model/ServicePlan
+    * Constructs a new <code>OrchestrationStack</code>.
+    * @alias module:model/OrchestrationStack
     * @class
     */
 
@@ -42,15 +42,15 @@ export default class ServicePlan {
     }
 
     /**
-    * Constructs a <code>ServicePlan</code> from a plain JavaScript object, optionally creating a new instance.
+    * Constructs a <code>OrchestrationStack</code> from a plain JavaScript object, optionally creating a new instance.
     * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
     * @param {Object} data The plain JavaScript object bearing properties of interest.
-    * @param {module:model/ServicePlan} obj Optional instance to populate.
-    * @return {module:model/ServicePlan} The populated <code>ServicePlan</code> instance.
+    * @param {module:model/OrchestrationStack} obj Optional instance to populate.
+    * @return {module:model/OrchestrationStack} The populated <code>OrchestrationStack</code> instance.
     */
     static constructFromObject(data, obj) {
         if (data) {
-            obj = obj || new ServicePlan();
+            obj = obj || new OrchestrationStack();
 
             
             
@@ -64,9 +64,6 @@ export default class ServicePlan {
             }
             if (data.hasOwnProperty('description')) {
                 obj['description'] = ApiClient.convertToType(data['description'], 'String');
-            }
-            if (data.hasOwnProperty('extra')) {
-                obj['extra'] = ApiClient.convertToType(data['extra'], 'String');
             }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
@@ -83,15 +80,6 @@ export default class ServicePlan {
             if (data.hasOwnProperty('tenant_id')) {
                 obj['tenant_id'] = ApiClient.convertToType(data['tenant_id'], 'String');
             }
-            if (data.hasOwnProperty('service_offering_id')) {
-                obj['service_offering_id'] = ApiClient.convertToType(data['service_offering_id'], 'String');
-            }
-            if (data.hasOwnProperty('create_json_schema')) {
-                obj['create_json_schema'] = ApiClient.convertToType(data['create_json_schema'], Object);
-            }
-            if (data.hasOwnProperty('update_json_schema')) {
-                obj['update_json_schema'] = ApiClient.convertToType(data['update_json_schema'], Object);
-            }
         }
         return obj;
     }
@@ -105,14 +93,10 @@ export default class ServicePlan {
     */
     name = undefined;
     /**
+    * Description of the OrchestrationStack
     * @member {String} description
     */
     description = undefined;
-    /**
-    * Extra information about this object in JSON format
-    * @member {String} extra
-    */
-    extra = undefined;
     /**
     * @member {Date} source_created_at
     */
@@ -133,18 +117,6 @@ export default class ServicePlan {
     * @member {String} tenant_id
     */
     tenant_id = undefined;
-    /**
-    * @member {String} service_offering_id
-    */
-    service_offering_id = undefined;
-    /**
-    * @member {Object} create_json_schema
-    */
-    create_json_schema = undefined;
-    /**
-    * @member {Object} update_json_schema
-    */
-    update_json_schema = undefined;
 
 
 

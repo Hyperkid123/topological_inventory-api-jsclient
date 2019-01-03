@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.Source();
+    instance = new TopologicalInventory.OrderParameters();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,40 +47,22 @@
       object[property] = value;
   }
 
-  describe('Source', function() {
-    it('should create an instance of Source', function() {
-      // uncomment below and update the code to test Source
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be.a(TopologicalInventory.Source);
+  describe('OrderParameters', function() {
+    it('should create an instance of OrderParameters', function() {
+      // uncomment below and update the code to test OrderParameters
+      //var instane = new TopologicalInventory.OrderParameters();
+      //expect(instance).to.be.a(TopologicalInventory.OrderParameters);
     });
 
-    it('should have the property id (base name: "id")', function() {
-      // uncomment below and update the code to test the property id
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property serviceParameters (base name: "service_parameters")', function() {
+      // uncomment below and update the code to test the property serviceParameters
+      //var instane = new TopologicalInventory.OrderParameters();
       //expect(instance).to.be();
     });
 
-    it('should have the property sourceTypeId (base name: "source_type_id")', function() {
-      // uncomment below and update the code to test the property sourceTypeId
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property name (base name: "name")', function() {
-      // uncomment below and update the code to test the property name
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property uid (base name: "uid")', function() {
-      // uncomment below and update the code to test the property uid
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property tenantId (base name: "tenant_id")', function() {
-      // uncomment below and update the code to test the property tenantId
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property providerControlParameters (base name: "provider_control_parameters")', function() {
+      // uncomment below and update the code to test the property providerControlParameters
+      //var instane = new TopologicalInventory.OrderParameters();
       //expect(instance).to.be();
     });
 

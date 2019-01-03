@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.ContainerTemplate();
+    instance = new TopologicalInventory.Task();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,58 +47,52 @@
       object[property] = value;
   }
 
-  describe('ContainerTemplate', function() {
-    it('should create an instance of ContainerTemplate', function() {
-      // uncomment below and update the code to test ContainerTemplate
-      //var instane = new TopologicalInventory.ContainerTemplate();
-      //expect(instance).to.be.a(TopologicalInventory.ContainerTemplate);
+  describe('Task', function() {
+    it('should create an instance of Task', function() {
+      // uncomment below and update the code to test Task
+      //var instane = new TopologicalInventory.Task();
+      //expect(instance).to.be.a(TopologicalInventory.Task);
     });
 
     it('should have the property id (base name: "id")', function() {
       // uncomment below and update the code to test the property id
-      //var instane = new TopologicalInventory.ContainerTemplate();
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new TopologicalInventory.ContainerTemplate();
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
-    it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
-      // uncomment below and update the code to test the property sourceCreatedAt
-      //var instane = new TopologicalInventory.ContainerTemplate();
+    it('should have the property status (base name: "status")', function() {
+      // uncomment below and update the code to test the property status
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
-    it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
-      // uncomment below and update the code to test the property sourceDeletedAt
-      //var instane = new TopologicalInventory.ContainerTemplate();
+    it('should have the property state (base name: "state")', function() {
+      // uncomment below and update the code to test the property state
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
-    it('should have the property sourceId (base name: "source_id")', function() {
-      // uncomment below and update the code to test the property sourceId
-      //var instane = new TopologicalInventory.ContainerTemplate();
+    it('should have the property context (base name: "context")', function() {
+      // uncomment below and update the code to test the property context
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
-    it('should have the property sourceRef (base name: "source_ref")', function() {
-      // uncomment below and update the code to test the property sourceRef
-      //var instane = new TopologicalInventory.ContainerTemplate();
+    it('should have the property completedAt (base name: "completed_at")', function() {
+      // uncomment below and update the code to test the property completedAt
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 
     it('should have the property tenantId (base name: "tenant_id")', function() {
       // uncomment below and update the code to test the property tenantId
-      //var instane = new TopologicalInventory.ContainerTemplate();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property containerProjectId (base name: "container_project_id")', function() {
-      // uncomment below and update the code to test the property containerProjectId
-      //var instane = new TopologicalInventory.ContainerTemplate();
+      //var instane = new TopologicalInventory.Task();
       //expect(instance).to.be();
     });
 

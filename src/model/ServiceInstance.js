@@ -62,8 +62,14 @@ export default class ServiceInstance {
             if (data.hasOwnProperty('name')) {
                 obj['name'] = ApiClient.convertToType(data['name'], 'String');
             }
+            if (data.hasOwnProperty('extra')) {
+                obj['extra'] = ApiClient.convertToType(data['extra'], 'String');
+            }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
+            }
+            if (data.hasOwnProperty('source_deleted_at')) {
+                obj['source_deleted_at'] = ApiClient.convertToType(data['source_deleted_at'], 'Date');
             }
             if (data.hasOwnProperty('service_offering_id')) {
                 obj['service_offering_id'] = ApiClient.convertToType(data['service_offering_id'], 'String');
@@ -90,9 +96,18 @@ export default class ServiceInstance {
     */
     name = undefined;
     /**
+    * Extra information about this object in JSON format
+    * @member {String} extra
+    */
+    extra = undefined;
+    /**
     * @member {Date} source_created_at
     */
     source_created_at = undefined;
+    /**
+    * @member {Date} source_deleted_at
+    */
+    source_deleted_at = undefined;
     /**
     * @member {String} service_offering_id
     */

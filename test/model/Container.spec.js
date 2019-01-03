@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.Source();
+    instance = new TopologicalInventory.Container();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,40 +47,40 @@
       object[property] = value;
   }
 
-  describe('Source', function() {
-    it('should create an instance of Source', function() {
-      // uncomment below and update the code to test Source
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be.a(TopologicalInventory.Source);
-    });
-
-    it('should have the property id (base name: "id")', function() {
-      // uncomment below and update the code to test the property id
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property sourceTypeId (base name: "source_type_id")', function() {
-      // uncomment below and update the code to test the property sourceTypeId
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
+  describe('Container', function() {
+    it('should create an instance of Container', function() {
+      // uncomment below and update the code to test Container
+      //var instane = new TopologicalInventory.Container();
+      //expect(instance).to.be.a(TopologicalInventory.Container);
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new TopologicalInventory.Source();
+      //var instane = new TopologicalInventory.Container();
       //expect(instance).to.be();
     });
 
-    it('should have the property uid (base name: "uid")', function() {
-      // uncomment below and update the code to test the property uid
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property cpuLimit (base name: "cpu_limit")', function() {
+      // uncomment below and update the code to test the property cpuLimit
+      //var instane = new TopologicalInventory.Container();
       //expect(instance).to.be();
     });
 
-    it('should have the property tenantId (base name: "tenant_id")', function() {
-      // uncomment below and update the code to test the property tenantId
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property cpuRequest (base name: "cpu_request")', function() {
+      // uncomment below and update the code to test the property cpuRequest
+      //var instane = new TopologicalInventory.Container();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property memoryLimit (base name: "memory_limit")', function() {
+      // uncomment below and update the code to test the property memoryLimit
+      //var instane = new TopologicalInventory.Container();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property memoryRequest (base name: "memory_request")', function() {
+      // uncomment below and update the code to test the property memoryRequest
+      //var instane = new TopologicalInventory.Container();
       //expect(instance).to.be();
     });
 
