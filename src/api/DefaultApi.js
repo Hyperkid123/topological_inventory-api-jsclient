@@ -22,7 +22,6 @@ import ContainerProject from '../model/ContainerProject';
 import ContainerTemplate from '../model/ContainerTemplate';
 import Endpoint from '../model/Endpoint';
 import Flavor from '../model/Flavor';
-import ID from '../model/ID';
 import InlineResponse200 from '../model/InlineResponse200';
 import OrchestrationStack from '../model/OrchestrationStack';
 import OrderParameters from '../model/OrderParameters';
