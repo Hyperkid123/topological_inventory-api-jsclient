@@ -60,7 +60,6 @@ export default class DefaultApi {
     /**
      * Create a new Authentication
      * Creates a Authentication object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link Object} and HTTP response
      */
     createAuthenticationWithHttpInfo(body) {
@@ -96,7 +95,6 @@ export default class DefaultApi {
     /**
      * Create a new Authentication
      * Creates a Authentication object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link Object}
      */
     createAuthentication(body) {
@@ -110,7 +108,6 @@ export default class DefaultApi {
     /**
      * Create a new Endpoint
      * Creates a Endpoint object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link Object} and HTTP response
      */
     createEndpointWithHttpInfo(body) {
@@ -146,7 +143,6 @@ export default class DefaultApi {
     /**
      * Create a new Endpoint
      * Creates a Endpoint object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link Object}
      */
     createEndpoint(body) {
@@ -160,7 +156,6 @@ export default class DefaultApi {
     /**
      * Create a new Source
      * Creates a Source object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link Object} and HTTP response
      */
     createSourceWithHttpInfo(body) {
@@ -196,7 +191,6 @@ export default class DefaultApi {
     /**
      * Create a new Source
      * Creates a Source object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link Object}
      */
     createSource(body) {
@@ -210,7 +204,6 @@ export default class DefaultApi {
     /**
      * Create a new SourceType
      * Creates a SourceType object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link Object} and HTTP response
      */
     createSourceTypeWithHttpInfo(body) {
@@ -246,7 +239,6 @@ export default class DefaultApi {
     /**
      * Create a new SourceType
      * Creates a SourceType object
-     * @param {module:model/ID} body
      * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with data of type {@link Object}
      */
     createSourceType(body) {
