@@ -150,6 +150,12 @@ Class | Method | HTTP request | Description
  - [TopologicalInventory.ServiceOffering](docs/ServiceOffering.md)
  - [TopologicalInventory.ServicePlan](docs/ServicePlan.md)
  - [TopologicalInventory.Source](docs/Source.md)
+ - [TopologicalInventory.SourceType](docs/SourceType.md)
+ - [TopologicalInventory.Task](docs/Task.md)
+ - [TopologicalInventory.Vm](docs/Vm.md)
+ - [TopologicalInventory.Volume](docs/Volume.md)
+ - [TopologicalInventory.VolumeAttachment](docs/VolumeAttachment.md)
+ - [TopologicalInventory.VolumeType](docs/VolumeType.md)
 
 
 ## Documentation for Authorization
