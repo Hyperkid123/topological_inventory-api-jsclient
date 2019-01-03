@@ -65,11 +65,17 @@ export default class ContainerNode {
             if (data.hasOwnProperty('cpus')) {
                 obj['cpus'] = ApiClient.convertToType(data['cpus'], 'Number');
             }
+            if (data.hasOwnProperty('lives_on_type')) {
+                obj['lives_on_type'] = ApiClient.convertToType(data['lives_on_type'], 'String');
+            }
             if (data.hasOwnProperty('memory')) {
                 obj['memory'] = ApiClient.convertToType(data['memory'], 'Number');
             }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
+            }
+            if (data.hasOwnProperty('source_deleted_at')) {
+                obj['source_deleted_at'] = ApiClient.convertToType(data['source_deleted_at'], 'Date');
             }
             if (data.hasOwnProperty('source_id')) {
                 obj['source_id'] = ApiClient.convertToType(data['source_id'], 'String');
@@ -97,6 +103,10 @@ export default class ContainerNode {
     */
     cpus = undefined;
     /**
+    * @member {String} lives_on_type
+    */
+    lives_on_type = undefined;
+    /**
     * @member {Number} memory
     */
     memory = undefined;
@@ -104,6 +114,10 @@ export default class ContainerNode {
     * @member {Date} source_created_at
     */
     source_created_at = undefined;
+    /**
+    * @member {Date} source_deleted_at
+    */
+    source_deleted_at = undefined;
     /**
     * @member {String} source_id
     */

@@ -48,6 +48,16 @@
   }
 
   describe('DefaultApi', function() {
+    describe('createAuthentication', function() {
+      it('should call createAuthentication successfully', function(done) {
+        //uncomment below and update the code to test createAuthentication
+        //instance.createAuthentication(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('createEndpoint', function() {
       it('should call createEndpoint successfully', function(done) {
         //uncomment below and update the code to test createEndpoint
@@ -62,6 +72,26 @@
       it('should call createSource successfully', function(done) {
         //uncomment below and update the code to test createSource
         //instance.createSource(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('createSourceType', function() {
+      it('should call createSourceType successfully', function(done) {
+        //uncomment below and update the code to test createSourceType
+        //instance.createSourceType(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('deleteAuthentication', function() {
+      it('should call deleteAuthentication successfully', function(done) {
+        //uncomment below and update the code to test deleteAuthentication
+        //instance.deleteAuthentication(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -88,10 +118,40 @@
         done();
       });
     });
+    describe('listAuthentications', function() {
+      it('should call listAuthentications successfully', function(done) {
+        //uncomment below and update the code to test listAuthentications
+        //instance.listAuthentications(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listContainerGroupContainers', function() {
+      it('should call listContainerGroupContainers successfully', function(done) {
+        //uncomment below and update the code to test listContainerGroupContainers
+        //instance.listContainerGroupContainers(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('listContainerGroups', function() {
       it('should call listContainerGroups successfully', function(done) {
         //uncomment below and update the code to test listContainerGroups
         //instance.listContainerGroups(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listContainerImages', function() {
+      it('should call listContainerImages successfully', function(done) {
+        //uncomment below and update the code to test listContainerImages
+        //instance.listContainerImages(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -158,10 +218,40 @@
         done();
       });
     });
+    describe('listContainers', function() {
+      it('should call listContainers successfully', function(done) {
+        //uncomment below and update the code to test listContainers
+        //instance.listContainers(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('listEndpoints', function() {
       it('should call listEndpoints successfully', function(done) {
         //uncomment below and update the code to test listEndpoints
         //instance.listEndpoints(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listFlavors', function() {
+      it('should call listFlavors successfully', function(done) {
+        //uncomment below and update the code to test listFlavors
+        //instance.listFlavors(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listOrchestrationStacks', function() {
+      it('should call listOrchestrationStacks successfully', function(done) {
+        //uncomment below and update the code to test listOrchestrationStacks
+        //instance.listOrchestrationStacks(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -238,6 +328,16 @@
         done();
       });
     });
+    describe('listSourceContainerImages', function() {
+      it('should call listSourceContainerImages successfully', function(done) {
+        //uncomment below and update the code to test listSourceContainerImages
+        //instance.listSourceContainerImages(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('listSourceContainerNodes', function() {
       it('should call listSourceContainerNodes successfully', function(done) {
         //uncomment below and update the code to test listSourceContainerNodes
@@ -268,10 +368,30 @@
         done();
       });
     });
+    describe('listSourceContainers', function() {
+      it('should call listSourceContainers successfully', function(done) {
+        //uncomment below and update the code to test listSourceContainers
+        //instance.listSourceContainers(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('listSourceEndpoints', function() {
       it('should call listSourceEndpoints successfully', function(done) {
         //uncomment below and update the code to test listSourceEndpoints
         //instance.listSourceEndpoints(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listSourceOrchestrationStacks', function() {
+      it('should call listSourceOrchestrationStacks successfully', function(done) {
+        //uncomment below and update the code to test listSourceOrchestrationStacks
+        //instance.listSourceOrchestrationStacks(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -308,10 +428,150 @@
         done();
       });
     });
+    describe('listSourceTypeSources', function() {
+      it('should call listSourceTypeSources successfully', function(done) {
+        //uncomment below and update the code to test listSourceTypeSources
+        //instance.listSourceTypeSources(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listSourceTypes', function() {
+      it('should call listSourceTypes successfully', function(done) {
+        //uncomment below and update the code to test listSourceTypes
+        //instance.listSourceTypes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listSourceVms', function() {
+      it('should call listSourceVms successfully', function(done) {
+        //uncomment below and update the code to test listSourceVms
+        //instance.listSourceVms(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listSourceVolumeTypes', function() {
+      it('should call listSourceVolumeTypes successfully', function(done) {
+        //uncomment below and update the code to test listSourceVolumeTypes
+        //instance.listSourceVolumeTypes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listSourceVolumes', function() {
+      it('should call listSourceVolumes successfully', function(done) {
+        //uncomment below and update the code to test listSourceVolumes
+        //instance.listSourceVolumes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('listSources', function() {
       it('should call listSources successfully', function(done) {
         //uncomment below and update the code to test listSources
         //instance.listSources(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listTasks', function() {
+      it('should call listTasks successfully', function(done) {
+        //uncomment below and update the code to test listTasks
+        //instance.listTasks(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVmVolumeAttachments', function() {
+      it('should call listVmVolumeAttachments successfully', function(done) {
+        //uncomment below and update the code to test listVmVolumeAttachments
+        //instance.listVmVolumeAttachments(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVmVolumes', function() {
+      it('should call listVmVolumes successfully', function(done) {
+        //uncomment below and update the code to test listVmVolumes
+        //instance.listVmVolumes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVms', function() {
+      it('should call listVms successfully', function(done) {
+        //uncomment below and update the code to test listVms
+        //instance.listVms(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVolumeAttachments', function() {
+      it('should call listVolumeAttachments successfully', function(done) {
+        //uncomment below and update the code to test listVolumeAttachments
+        //instance.listVolumeAttachments(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVolumeTypes', function() {
+      it('should call listVolumeTypes successfully', function(done) {
+        //uncomment below and update the code to test listVolumeTypes
+        //instance.listVolumeTypes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('listVolumes', function() {
+      it('should call listVolumes successfully', function(done) {
+        //uncomment below and update the code to test listVolumes
+        //instance.listVolumes(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('orderServicePlan', function() {
+      it('should call orderServicePlan successfully', function(done) {
+        //uncomment below and update the code to test orderServicePlan
+        //instance.orderServicePlan(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('replaceAuthentication', function() {
+      it('should call replaceAuthentication successfully', function(done) {
+        //uncomment below and update the code to test replaceAuthentication
+        //instance.replaceAuthentication(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -338,10 +598,40 @@
         done();
       });
     });
+    describe('showAuthentication', function() {
+      it('should call showAuthentication successfully', function(done) {
+        //uncomment below and update the code to test showAuthentication
+        //instance.showAuthentication(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showContainer', function() {
+      it('should call showContainer successfully', function(done) {
+        //uncomment below and update the code to test showContainer
+        //instance.showContainer(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('showContainerGroup', function() {
       it('should call showContainerGroup successfully', function(done) {
         //uncomment below and update the code to test showContainerGroup
         //instance.showContainerGroup(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showContainerImage', function() {
+      it('should call showContainerImage successfully', function(done) {
+        //uncomment below and update the code to test showContainerImage
+        //instance.showContainerImage(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});
@@ -388,6 +678,26 @@
         done();
       });
     });
+    describe('showFlavor', function() {
+      it('should call showFlavor successfully', function(done) {
+        //uncomment below and update the code to test showFlavor
+        //instance.showFlavor(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showOrchestrationStack', function() {
+      it('should call showOrchestrationStack successfully', function(done) {
+        //uncomment below and update the code to test showOrchestrationStack
+        //instance.showOrchestrationStack(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
     describe('showServiceInstance', function() {
       it('should call showServiceInstance successfully', function(done) {
         //uncomment below and update the code to test showServiceInstance
@@ -422,6 +732,76 @@
       it('should call showSource successfully', function(done) {
         //uncomment below and update the code to test showSource
         //instance.showSource(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showSourceType', function() {
+      it('should call showSourceType successfully', function(done) {
+        //uncomment below and update the code to test showSourceType
+        //instance.showSourceType(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showTask', function() {
+      it('should call showTask successfully', function(done) {
+        //uncomment below and update the code to test showTask
+        //instance.showTask(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showVm', function() {
+      it('should call showVm successfully', function(done) {
+        //uncomment below and update the code to test showVm
+        //instance.showVm(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showVolume', function() {
+      it('should call showVolume successfully', function(done) {
+        //uncomment below and update the code to test showVolume
+        //instance.showVolume(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showVolumeAttachment', function() {
+      it('should call showVolumeAttachment successfully', function(done) {
+        //uncomment below and update the code to test showVolumeAttachment
+        //instance.showVolumeAttachment(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('showVolumeType', function() {
+      it('should call showVolumeType successfully', function(done) {
+        //uncomment below and update the code to test showVolumeType
+        //instance.showVolumeType(function(error) {
+        //  if (error) throw error;
+        //expect().to.be();
+        //});
+        done();
+      });
+    });
+    describe('updateAuthentication', function() {
+      it('should call updateAuthentication successfully', function(done) {
+        //uncomment below and update the code to test updateAuthentication
+        //instance.updateAuthentication(function(error) {
         //  if (error) throw error;
         //expect().to.be();
         //});

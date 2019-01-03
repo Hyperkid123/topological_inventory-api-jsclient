@@ -68,6 +68,9 @@ export default class ContainerGroup {
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
             }
+            if (data.hasOwnProperty('source_deleted_at')) {
+                obj['source_deleted_at'] = ApiClient.convertToType(data['source_deleted_at'], 'Date');
+            }
             if (data.hasOwnProperty('container_node_id')) {
                 obj['container_node_id'] = ApiClient.convertToType(data['container_node_id'], 'String');
             }
@@ -103,6 +106,10 @@ export default class ContainerGroup {
     * @member {Date} source_created_at
     */
     source_created_at = undefined;
+    /**
+    * @member {Date} source_deleted_at
+    */
+    source_deleted_at = undefined;
     /**
     * @member {String} container_node_id
     */

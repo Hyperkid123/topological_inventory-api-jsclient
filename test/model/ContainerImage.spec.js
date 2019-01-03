@@ -28,7 +28,7 @@
   var instance;
 
   beforeEach(function() {
-    instance = new TopologicalInventory.Source();
+    instance = new TopologicalInventory.ContainerImage();
   });
 
   var getProperty = function(object, getter, property) {
@@ -47,40 +47,34 @@
       object[property] = value;
   }
 
-  describe('Source', function() {
-    it('should create an instance of Source', function() {
-      // uncomment below and update the code to test Source
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be.a(TopologicalInventory.Source);
-    });
-
-    it('should have the property id (base name: "id")', function() {
-      // uncomment below and update the code to test the property id
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
-    });
-
-    it('should have the property sourceTypeId (base name: "source_type_id")', function() {
-      // uncomment below and update the code to test the property sourceTypeId
-      //var instane = new TopologicalInventory.Source();
-      //expect(instance).to.be();
+  describe('ContainerImage', function() {
+    it('should create an instance of ContainerImage', function() {
+      // uncomment below and update the code to test ContainerImage
+      //var instane = new TopologicalInventory.ContainerImage();
+      //expect(instance).to.be.a(TopologicalInventory.ContainerImage);
     });
 
     it('should have the property name (base name: "name")', function() {
       // uncomment below and update the code to test the property name
-      //var instane = new TopologicalInventory.Source();
+      //var instane = new TopologicalInventory.ContainerImage();
       //expect(instance).to.be();
     });
 
-    it('should have the property uid (base name: "uid")', function() {
-      // uncomment below and update the code to test the property uid
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property tag (base name: "tag")', function() {
+      // uncomment below and update the code to test the property tag
+      //var instane = new TopologicalInventory.ContainerImage();
       //expect(instance).to.be();
     });
 
-    it('should have the property tenantId (base name: "tenant_id")', function() {
-      // uncomment below and update the code to test the property tenantId
-      //var instane = new TopologicalInventory.Source();
+    it('should have the property sourceCreatedAt (base name: "source_created_at")', function() {
+      // uncomment below and update the code to test the property sourceCreatedAt
+      //var instane = new TopologicalInventory.ContainerImage();
+      //expect(instance).to.be();
+    });
+
+    it('should have the property sourceDeletedAt (base name: "source_deleted_at")', function() {
+      // uncomment below and update the code to test the property sourceDeletedAt
+      //var instane = new TopologicalInventory.ContainerImage();
       //expect(instance).to.be();
     });
 

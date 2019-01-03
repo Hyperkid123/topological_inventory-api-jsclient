@@ -68,8 +68,14 @@ export default class ServiceOffering {
             if (data.hasOwnProperty('source_ref')) {
                 obj['source_ref'] = ApiClient.convertToType(data['source_ref'], 'String');
             }
+            if (data.hasOwnProperty('extra')) {
+                obj['extra'] = ApiClient.convertToType(data['extra'], 'String');
+            }
             if (data.hasOwnProperty('source_created_at')) {
                 obj['source_created_at'] = ApiClient.convertToType(data['source_created_at'], 'Date');
+            }
+            if (data.hasOwnProperty('source_deleted_at')) {
+                obj['source_deleted_at'] = ApiClient.convertToType(data['source_deleted_at'], 'Date');
             }
             if (data.hasOwnProperty('source_id')) {
                 obj['source_id'] = ApiClient.convertToType(data['source_id'], 'String');
@@ -94,13 +100,23 @@ export default class ServiceOffering {
     */
     description = undefined;
     /**
+    * The native reference used by the Source to refer to this object
     * @member {String} source_ref
     */
     source_ref = undefined;
     /**
+    * Extra information about this object in JSON format
+    * @member {String} extra
+    */
+    extra = undefined;
+    /**
     * @member {Date} source_created_at
     */
     source_created_at = undefined;
+    /**
+    * @member {Date} source_deleted_at
+    */
+    source_deleted_at = undefined;
     /**
     * @member {String} source_id
     */
